@@ -1,7 +1,7 @@
 import {Router, Request, Response} from 'express';
 
-import {User} from '../models/User';
-import {AuthRouter} from './auth.router';
+import {User} from '../models/User.js';
+import {AuthRouter} from './auth.router.js';
 
 const router: Router = Router();
 

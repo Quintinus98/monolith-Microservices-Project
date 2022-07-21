@@ -1,12 +1,12 @@
 import cors from 'cors';
 import express from 'express';
-import {sequelize} from './sequelize';
+import {sequelize} from './sequelize.js';
 
-import {IndexRouter} from './controllers/v0/index.router';
+import {IndexRouter} from './controllers/v0/index.router.js';
 
 import bodyParser from 'body-parser';
-import {config} from './config/config';
-import {V0_USER_MODELS} from './controllers/v0/model.index';
+import {config} from './config/config.js';
+import {V0_USER_MODELS} from './controllers/v0/model.index.js';
 
 
 (async () => {

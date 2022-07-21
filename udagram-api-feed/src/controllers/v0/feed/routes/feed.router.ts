@@ -1,9 +1,9 @@
 import {Router, Request, Response} from 'express';
-import {FeedItem} from '../models/FeedItem';
+import {FeedItem} from '../models/FeedItem.js';
 import {NextFunction} from 'connect';
 import * as jwt from 'jsonwebtoken';
 import * as AWS from '../../../../aws';
-import * as c from '../../../../config/config';
+import * as c from '../../../../config/config.js';
 
 const router: Router = Router();
 
