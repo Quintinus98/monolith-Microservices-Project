@@ -4,8 +4,8 @@ metadata:
   name: env-configmap
 data:
   POSTGRES_DB: postgres
-  POSTGRES_HOST: my-database.cv4wjcgtcfht.us-east-1.rds.amazonaws.com
-  AWS_BUCKET: mybucket-quentin
+  POSTGRES_HOST: my-database.co1s0tvwhrfq.us-east-1.rds.amazonaws.com
+  AWS_BUCKET: arn:aws:s3:::eksbucketv1
   AWS_REGION: us-east-1
   AWS_PROFILE: default
   JWT_SECRET: testing
