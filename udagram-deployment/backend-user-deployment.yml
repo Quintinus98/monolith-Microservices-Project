@@ -23,7 +23,8 @@ spec:
         - name: backend-user
           image: quentinsop/udagram-api-user
           imagePullPolicy: Always
-          requests:
+          resources:
+            requests:
               memory: "64Mi"
               cpu: "250m"
             limits:
