@@ -23,11 +23,12 @@ spec:
         - name: backend-user
           image: quentinsop/udagram-api-user
           imagePullPolicy: Always
-          resources:
-            requests:
-              cpu: "100m"
+          requests:
+              memory: "64Mi"
+              cpu: "250m"
             limits:
-              cpu: "200m"
+              memory: "1024Mi"
+              cpu: "500m"
           env:
             - name: POSTGRES_USERNAME
               valueFrom:
